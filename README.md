@@ -7,6 +7,7 @@
 
 ## References
 * [Grokking RxJava, Part 1: The Basics](http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/)
+* [Grokking RxJava, Part 2: Operator, Operator](http://blog.danlew.net/2014/09/22/grokking-rxjava-part-2/)
 
 ## Rx Concepts
 
@@ -36,3 +37,29 @@ Your Observable could be a stream of bytes read from the internet, the Subscribe
 I can stick as many map() calls as I want in between the original source Observable and its ultimate Subscriber.
 The system is highly composable: it is easy to manipulate the data.
 As long as the operators work with the correct input/output data I could make a chain that goes on forever ;)
+
+**Key idea #3: Operators let you do anything to the stream of data.**
+You can setup complex logic using nothing but chains of simple operators.
+It breaks down your code into composable bits and pieces.
+That's functional reactive programming. The more you use it, the more it changes the way you think about programs.
+
+You can compose/combine many API calls using the Transformation Operators of Rx.
+Imagine how you'd go about doing it the Async Callbacks way. You know how much of a pain in the ass it is to keep all your API calls synced, having to link their callbacks together before presenting the data?
+Look at how easy it is to manipulate the stream of data.
+You can keep adding more and more ingredients to your recipe and not mess anything up.
+
+
+
+## Frequently User Transformation Operators
+
+* `map`
+* `flatMap`
+* `filter()` emits the same item it received, but only if it passes the boolean check
+* `take(number)` emits, at most, the number of items specified. (If there are fewer than said #, it'll just stop early.)
+* `doOnNext()` allows us to add extra behavior each time an item is emitted, in this case saving the title.
+
+RxJava comes with [a ton of operators](https://github.com/ReactiveX/RxJava/wiki/Alphabetical-List-of-Observable-Operators).
+It is intimidating how many operators there are, but it's worth reviewing so you know what's available.
+It will take a while to internalize the operators but you'll have true power at your fingertips once you do.
+
+If you want to implement your own operators, check out [this wiki page](https://github.com/ReactiveX/RxJava/wiki/Implementing-Your-Own-Operators).
