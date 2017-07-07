@@ -14,6 +14,19 @@
 * [RxJava Wiki - Home](https://github.com/ReactiveX/RxJava/wiki)
 * [Alphabetical List of Operators](http://reactivex.io/documentation/operators.html#alphabetical)
 * [Error handling in RxJava](http://blog.danlew.net/2015/12/08/error-handling-in-rxjava/)
+* [RxJava Docs - Error Handling](https://github.com/ReactiveX/RxJava/wiki/Error-Handling)
+* [Grokking RxJava, Part 4: Reactive Android](http://blog.danlew.net/2014/10/08/grokking-rxjava-part-4/)
+* [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754#the-introduction-to-reactive-programming-youve-been-missing)
+* [RxJava magic (finally) goes away](http://konmik.com/post/rxjava_magic_finally_goes_away/)
+* [How to think about Subjects in RxJava (Part 1)](https://tech.instacart.com/how-to-think-about-subjects-in-rxjava-part-1-ca509b981020)
+* [Learning RxJava for Android by example](https://github.com/kaushikgopal/RxJava-Android-Samples)
+* [Building Yahnac’s Rx Pipeline](http://www.malmstein.com/blog/2015/04/05/yahnacs-rx-pipeline/)
+* [The Mayans Lost Guide to RxJava on Android by Fernando Cejas @ SpeakerDeck](https://speakerdeck.com/android10/the-mayans-lost-guide-to-rxjava-on-android)
+* [Subscribe It While It's Hot: Cached Rest Requests With RxJava](http://fedepaol.github.io/blog/2016/01/01/cached-rest-requests-with-rxjava/?utm_source=androiddevdigest)
+* [RxJava 2 Android Examples - Migration From RxJava 1 to RxJava 2 - How to use RxJava 2 in Android](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples)
+* [Quora - What is the best way to learn RxJava for Android?](https://www.quora.com/What-is-the-best-way-to-learn-RxJava-for-Android)
+
+
 
 ## Rx Concepts
 
