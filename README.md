@@ -1,9 +1,10 @@
-# Demo Project to Learn RxJava 1 and 2
+# RxLessons - Demo Project to Learn RxJava 1
 
 ## Code References for RxJava 1
 * Lesson[1-5] classes from Blog post 1
 * Lesson[6-7] classes from Blog post 2
 * Lesson[8-10] classes from Blog post 3
+
 
 ## Code References for RxJava 2
 
@@ -25,7 +26,8 @@
 * [Subscribe It While It's Hot: Cached Rest Requests With RxJava](http://fedepaol.github.io/blog/2016/01/01/cached-rest-requests-with-rxjava/?utm_source=androiddevdigest)
 * [RxJava 2 Android Examples - Migration From RxJava 1 to RxJava 2 - How to use RxJava 2 in Android](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples)
 * [Quora - What is the best way to learn RxJava for Android?](https://www.quora.com/What-is-the-best-way-to-learn-RxJava-for-Android)
-
+* [Book] Reactive Programming with RxJava
+* [Book][Code - Reactive Programming with RxJava](https://github.com/nurkiewicz/rxjava-book-examples)
 
 
 ## Rx Concepts
