@@ -1,7 +1,7 @@
 package blog.danlew.net;
 
 import blog.danlew.net.errors.MyExceptionType;
-import blog.danlew.net.util.MockMoviesAPI;
+import blog.danlew.net.services.MockMoviesAPI;
 import org.apache.commons.lang3.text.WordUtils;
 import rx.Subscriber;
 import rx.exceptions.Exceptions;

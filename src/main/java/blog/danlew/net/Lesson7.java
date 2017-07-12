@@ -1,6 +1,6 @@
 package blog.danlew.net;
 
-import blog.danlew.net.util.MockMoviesAPI;
+import blog.danlew.net.services.MockMoviesAPI;
 import org.apache.commons.lang3.text.WordUtils;
 
 // Ref.: http://blog.danlew.net/2014/09/22/grokking-rxjava-part-2/

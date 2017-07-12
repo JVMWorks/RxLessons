@@ -1,4 +1,4 @@
-package blog.danlew.net.util;
+package blog.danlew.net.services;
 
 import rx.Observable;
 
