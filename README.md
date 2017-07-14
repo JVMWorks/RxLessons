@@ -47,6 +47,12 @@ This distinction isn't that important to initially learning RxJava.
  
 Our map() operator is basically an Observable that transforms an item.
 We can chain as many map() calls as we want together, polishing the data into a perfect, consumable form for our end Subscriber
+
+** Understanding Observables by Example **
+* Observable<Tweet> tweets : where tweets represent stream of events.
+* Observable<Customer> customers : where customers represent list of customers, probably from a db query.
+* Observable<HttpResponse> response : where response yields just one event (value) until it terminates.
+* Observable<Void> completionCallback : where completionCallback represents completion of a possible transaction. 
  
 **Key idea #1: Observable and Subscriber can do anything.**
 It's a general framework that can handle just about any problem.
